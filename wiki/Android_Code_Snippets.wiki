@@ -1,0 +1,13 @@
+#summary Android Code Snippets go here!
+
+= Introduction =
+
+We can put some common/interesting code snippets. Try the code snippet and verify the functionality on your Android Virtual Device before sharing it here.
+
+For example, one can follow the generic format as shown below.
+
+1. Code to detect clicks on screen and get the X, Y co-ordinate of the same:
+
+Description:
+
+Code:
