@@ -11,3 +11,13 @@ For example, one can follow the generic format as shown below.
 Description:
 
 Code:
+
+public boolean onTouchEvent (MotionEvent event)
+{
+ if (event.getAction() == MotionEvent.ACTION_DOWN)
+ {
+   String text = "You clicked at x = " + event.getX() + " and y = " + event.getY() + " \n";
+    Toast.makeText(this, text, Toast.LENGTH_LONG).show();
+  }
+   return super.onTouchEvent(event);
+}
