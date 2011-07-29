@@ -11,7 +11,7 @@ For example, one can follow the generic format as shown below.
 Description:
 
 Code:
-
+{{{
 public boolean onTouchEvent (MotionEvent event)
 {
  if (event.getAction() == MotionEvent.ACTION_DOWN)
@@ -21,3 +21,4 @@ public boolean onTouchEvent (MotionEvent event)
   }
    return super.onTouchEvent(event);
 }
+}}}
