@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Some background and technical terms for android
 
 == Important terms ==
   # Activities: The building block of the user interface is the activity. You can think of an activity as being the Android analogue for the window for dialog box in a desktop application. 
@@ -18,3 +18,11 @@
 	* res: A folder that holds resources—such as icons, graphic user interface (GUI) layouts, and the like—that are packaged with the
 compiled Java in the application.
 	* tests: A folder that holds an entirely separate Android project used for testing the one you created.
+
+The _res_ directory tree holds resources—static files that are packaged along with your application, either in their original form or, occasionally, in a preprocessed form. These are some of the subdirectories you will find or create under res/:
+	* res/drawble: For images (PNG, JPEG, etc.).
+	* res/layout : For XML-based UI layout specifications.
+	* res/menu : For XML-based menu specifications.
+	* res/raw: For general-purpose files (e.g., a CSV file of account information).
+	* res/values: For strings, dimensions, and the like.
+	* res/xml: For other general purpose files you want to ship.
