@@ -8,3 +8,8 @@ Long Live Page Rank!
 = Details =
 
 Ok, here we can share links to good links on Android, phone hardware etc that would be relevant to our work.
+
+
+= To Improve UI of Android App =
+
+http://www.slideshare.net/AndroidDev/android-ui-design-tips
