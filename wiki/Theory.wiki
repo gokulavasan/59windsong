@@ -1,13 +1,20 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+== Important terms ==
+  # Activities: The building block of the user interface is the activity. You can think of an activity as being the Android analogue for the window for dialog box in a desktop application. 
+  # Content providers: Content providers provide a level of abstraction for any data stored on the device that is accessible by multiple applications. 
+  # Services: Activities and content providers are short-lived and can be shut down at any time. Services, on the other hand, are designed to keep running, if needed, independent of any activity. You might use a service for checking for updates to an RSS feed or to play back music even if the controlling activity is no longer operating.
+  # Intents: Intents are system messages, running around the inside of the device, notifying applications of various events, from hardware state changes (e.g., an SD card was inserted), to incoming data (e.g., anSMS message arrived), to application events (e.g., your activity was launched from the device’s main menu). Not only can you respond to intents, but you can create your own to launch other activities or to let you know when specific situations arise (e.g., raise such-and-so intent when the user gets within 100 meters of this-and-such location).
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== Structure of Project Directory ==
+	* AndroidManifest.xml: An XML file describing the application being built and which components—activities, services, and so on—are being supplied by that application.
+	* build.xml: An Ant script for compiling the application and installing it on the device.
+	* default.properties and local.properties : Property files used by the Ant build script.
+	* assets: A folder that holds other static files you wish packaged with the application for deployment onto the device.
+	* bin: A folder that holds the application once it is compiled.
+	* gen: Where Android’s build tools will place source code that they generate.
+	* libs: A folder that holds any third-party JARs your application requires.
+	* src: A folder that holds the Java source code for the application.
+	* res: A folder that holds resources—such as icons, graphic user interface (GUI) layouts, and the like—that are packaged with the
+compiled Java in the application.
+	* tests: A folder that holds an entirely separate Android project used for testing the one you created.
