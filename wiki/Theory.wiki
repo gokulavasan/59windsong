@@ -26,3 +26,10 @@ The _res_ directory tree holds resources—static files that are packaged along 
 	* res/raw: For general-purpose files (e.g., a CSV file of account information).
 	* res/values: For strings, dimensions, and the like.
 	* res/xml: For other general purpose files you want to ship.
+
+When you compile your project, the results go into the bin/ directory under your project root, as follows:
+	* bin/classes: Holds the compiled Java classes.
+	* bin/classes.dex: Holds the executable created from those compiled Java classes.
+	* bin/yourapp.ap_: Holds your application’s resources, packaged as a ZIP file 
+	* bin/yourapp-debug.apk or bin/yourapp-unsigned.apk: The actual
+Android application 
